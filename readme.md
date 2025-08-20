@@ -1,5 +1,8 @@
 # eBay Listings Exporter - Clean Version
 
+XML parsing format
+rate limited to 2req/sec
+
 ## Setup
 
 1. Install dependencies:
