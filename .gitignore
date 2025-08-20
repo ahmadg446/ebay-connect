@@ -1,6 +1,9 @@
 .env
 ~$my_listings.xlsx
 my_listings.xlsx
+bedding_categories.csv
+~$buyer_listings_*.xlsx
+buyer_listings_*.xlsx
 
 
 # Logs
