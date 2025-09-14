@@ -1,0 +1,15 @@
+[package]
+name = "ebay-connect"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+chrono = "0.4"
+dotenvy = "0.15"
+quick-xml = { version = "0.31", features = ["serialize"] }
+reqwest = { version = "0.11", features = ["json", "stream"] }
+rust_xlsxwriter = "0.61"
+serde = { version = "1.0.221", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
