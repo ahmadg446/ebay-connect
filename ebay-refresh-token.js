@@ -114,7 +114,7 @@ async function updateEnvFile(accessToken, refreshToken, expiresIn) {
     // Update access token
     envContent = envContent.replace(
       /EBAY_ACCESS_TOKEN=.*/,
-      `EBAY_ACCESS_TOKEN=${accessToken}`
+      `EBAY_ACCESS_TOKEN='${accessToken}'`
     );
     
     // Update expiry timestamp
@@ -127,7 +127,7 @@ async function updateEnvFile(accessToken, refreshToken, expiresIn) {
     if (refreshToken) {
       envContent = envContent.replace(
         /EBAY_REFRESH_TOKEN=.*/,
-        `EBAY_REFRESH_TOKEN=${refreshToken}`
+        `EBAY_REFRESH_TOKEN='${refreshToken}'`
       );
     }
     
