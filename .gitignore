@@ -1,4 +1,6 @@
 .env
+envs/.env.dev
+
 ~$my_listings.xlsx
 my_listings.xlsx
 bedding_categories.csv

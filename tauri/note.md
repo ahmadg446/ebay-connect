@@ -1,0 +1,1 @@
+future Tauri (Rust) backend that compiles to .exe

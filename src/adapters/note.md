@@ -1,0 +1,1 @@
+authentication logic for separate apis, anything related to handling tokens and stuff should go here.
