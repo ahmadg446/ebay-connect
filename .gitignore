@@ -51,3 +51,5 @@ config.json
 Thumbs.db
 
 .env
+# Rust
+/target/
